@@ -1,0 +1,142 @@
+@keyframes cor{
+    20%{
+      filter: drop-shadow(7px 8px 10px rgb(32, 146, 253));
+    }
+    50%{
+      filter: drop-shadow(7px 8px 10px rgb(58, 255, 189));
+    }
+  
+   80%{
+      filter: drop-shadow(7px 8px 10px rgb(31, 255, 124));
+    }
+  }
+  body{
+    height:auto ;
+    width: 100vw;
+    background: rgb(140,6,191);
+    background: linear-gradient(90deg, rgba(140,6,191,1) 9%, rgba(94,203,202,1) 31%, rgb(223, 78, 172) 58%, rgba(207,0,255,1) 87%);
+}
+.container{
+    height: auto;
+    width: 100vw;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 0.9em;
+    padding: 1em;
+}
+.texto-titulo{
+    display:flex;
+    font-size:2.8em;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    filter: drop-shadow(7px 8px 10px rgb(6, 247, 255));
+    animation:cor 8s infinite;
+}
+.lista{
+    display:flex;
+    align-items: center; 
+    gap:1em;
+}
+.lista > li > a{
+    color:black;
+    font-size:1.5em;
+}
+.texto-paragrafo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    text-align:left;
+    margin-left: 1em;
+}
+.carro{
+    display:flex;
+    justify-content:center;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:80px;
+}
+
+.imagens_trabalhos{
+    filter: drop-shadow(7px 8px 10px rgb(6, 247, 255));
+    animation:cor 8s infinite;
+    width:50%;
+    height: 50%;
+    border-radius:10px;
+}
+.texto_legenda{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    background: none;
+    height:8em;
+    overflow: auto;
+    padding:1em;
+    border: 1px dashed black;
+    border-radius:10px;
+}
+.letra-link{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item{
+    box-sizing: border-box;
+    width:280px;
+    height:300px;
+    padding: 1em;
+ 
+}
+.link-footer{
+    color:black;
+}
+.footer h4{
+    text-align: center;
+    margin-top: 3em;
+}
+@media (max-width: 600px){
+    .container{
+        height:100%;
+    }
+    .header{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .texto-titulo{
+        font-size:2em;
+        font-family: 'Press Start 2P', cursive;
+        filter: drop-shadow(5px -8px 10px rgb(6, 247, 255));
+        animation:cor 8s infinite;
+        margin-top:0.5em;
+        
+        }
+        .texto-paragrafo{
+        margin: 1em;
+    }
+    .lista li{
+        margin: 0.5em;
+    }
+    .carro{
+        display:flex;
+        max-width:300px;
+        align-items: center;
+        justify-self: center;
+       
+    }
+    .item{
+        padding: 1em;
+        height:22em
+    }
+    .blocos{
+        height: 20em;
+    }
+    
+    .footer{
+        margin-top: 3em;
+        
+    }
+
+
+}
