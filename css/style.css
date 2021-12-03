@@ -1,21 +1,21 @@
 @keyframes cor{
     20%{
-      filter: drop-shadow(7px 8px 10px rgb(32, 146, 253));
+      filter: drop-shadow(7px 5px 10px rgb(49, 161, 206));
     }
     50%{
-      filter: drop-shadow(7px 8px 10px rgb(58, 255, 189));
+      filter: drop-shadow(7px 5px 10px rgb(33, 169, 179));
     }
   
    80%{
-      filter: drop-shadow(7px 8px 10px rgb(31, 255, 124));
+      filter: drop-shadow(7px 5px 10px rgb(40, 202, 167));
     }
   }
   body{
     height:100vh;
     width: 100vw;
     overflow-x: hidden;
-    background: rgb(140,6,191);
-    background: linear-gradient(90deg, rgba(140,6,191,1) 9%, rgba(94,203,202,1) 31%, rgb(223, 78, 172) 58%, rgba(207,0,255,1) 87%);
+    background: rgb(43,52,51);
+    background: linear-gradient(90deg, rgba(43,52,51,1) 0%, rgba(87,102,100,1) 54%, rgba(82,116,124,1) 100%, rgba(177,177,177,1) 100%);
 }
 .container{
     height: auto;
@@ -34,6 +34,7 @@
     font-family: 'Press Start 2P', cursive;
     filter: drop-shadow(7px 8px 10px rgb(6, 247, 255));
     animation:cor 8s infinite;
+    color: rgb(213, 235, 255);
 }
 .lista{
     display:flex;
@@ -42,7 +43,8 @@
     margin-right: 0.5em;
 }
 .lista > li > a{
-    color:black;
+   color: rgb(211, 237, 238);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
     font-size:1.5em;
 }
 .texto-paragrafo{
@@ -50,6 +52,8 @@
     font-size: 14px;
     text-align:left;
     margin-left: 1em;
+    color: rgb(211, 237, 238);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
 }
 .carro{
     display:flex;
@@ -77,15 +81,20 @@
     overflow: auto;
     padding:1em;
     border: 1px dashed black;
+    color: rgb(255, 234, 234);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
+
 }
 .blocos{
-    height:26em;
+    height:19em;
 }
 .letra-link{
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
     text-decoration: none;
     cursor: pointer;
+    color: rgb(243, 141, 141);
+    filter: drop-shadow(4px 2px 1px rgb(119, 5, 85));
 }
 .item{
     box-sizing: border-box;
@@ -95,17 +104,23 @@
 }
 .link-footer{
     color:black;
+    color: rgb(255, 234, 234);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
 }
 .fa-whatsapp{
     color:black;
     font-size:20px;
+    color: rgb(211, 211, 211);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
 }
 .footer h4{
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 .letras-footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 234, 234);
+    filter: drop-shadow(3px 3px 3px rgb(1, 125, 167));
 }
 @media (max-width: 600px){
     .container{
