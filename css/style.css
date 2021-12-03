@@ -13,7 +13,6 @@
   body{
     height:100vh;
     width: 100vw;
-    overflow:scroll;
     overflow-x: hidden;
     background: rgb(140,6,191);
     background: linear-gradient(90deg, rgba(140,6,191,1) 9%, rgba(94,203,202,1) 31%, rgb(223, 78, 172) 58%, rgba(207,0,255,1) 87%);
@@ -101,6 +100,9 @@
 .footer h4{
     text-align: center;
     margin-top: 3em;
+}
+.letras-footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 @media (max-width: 600px){
     .container{
